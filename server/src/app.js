@@ -2,7 +2,7 @@ let express = require('express')
 const app = express()
 
 app.get('/status',function(req,res){
-    res.send('Hello nodejs server thanawat mankhetkon')
+    res.send('Hello nodejs server Peerawat Srisuphan')
 })
 
 app.get('/hello/:person',function(req,res){
